@@ -27,27 +27,4 @@ Para gerar o relatório de cobertura com JaCoCo:
 ```bash
 mvn clean test
 ```
-
-Após a execução, abra o relatório em:
-
-```text
-target/site/jacoco/index.html
-```
-
-## Tutorial no IntelliJ
-
-Para um passo a passo sobre como executar testes, visualizar cobertura e rodar testes de mutação no IntelliJ IDEA, consulte:
-
-[Tutorial: cobertura de testes e testes de mutação no IntelliJ](docs/TUTORIAL_COBERTURA_E_MUTACAO_INTELLIJ.md)
-
-## Tutorial no Eclipse
-
-Para um passo a passo sobre como executar testes de mutação no Eclipse, consulte:
-
-[Tutorial: testes de mutação no Eclipse](docs/TUTORIAL_COBERTURA_E_MUTACAO_ECLIPSE.md)
-
----
-
-<p align="center">
-  Feito com ❤️ pela equipe de monitores de 2026.
-</p>
+Após a execução, com a extensão Live Preview da Microsoft, procure arquivo index.html em target/pit-reports, aperte o botão direito do mouse em cima do arquivo e na opção "Show Preview" e visualize os resultados.
